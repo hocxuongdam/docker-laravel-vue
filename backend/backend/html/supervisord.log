@@ -1,0 +1,27 @@
+2023-03-22 15:36:00,527 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-03-22 15:36:00,530 INFO supervisord started with pid 1
+2023-03-22 15:36:01,538 INFO spawned: 'nginx' with pid 7
+2023-03-22 15:36:01,546 INFO spawned: 'php-fpm' with pid 8
+2023-03-22 15:36:02,677 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-03-22 15:36:02,680 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-03-22 15:36:02,681 INFO exited: nginx (exit status 1; not expected)
+2023-03-22 15:36:03,695 INFO spawned: 'nginx' with pid 11
+2023-03-22 15:36:03,733 INFO exited: nginx (exit status 1; not expected)
+2023-03-22 15:36:04,742 INFO spawned: 'nginx' with pid 12
+2023-03-22 15:36:05,785 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-03-22 15:36:05,786 INFO exited: nginx (exit status 1; not expected)
+2023-03-22 15:36:06,797 INFO spawned: 'nginx' with pid 13
+2023-03-22 15:36:07,838 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-03-22 15:36:07,841 INFO exited: nginx (exit status 1; not expected)
+2023-03-22 15:36:08,847 INFO spawned: 'nginx' with pid 14
+2023-03-22 15:36:08,876 INFO exited: nginx (exit status 1; not expected)
+2023-03-22 15:36:09,881 INFO spawned: 'nginx' with pid 15
+2023-03-22 15:36:09,913 INFO exited: nginx (exit status 1; not expected)
+2023-03-22 15:36:11,924 INFO spawned: 'nginx' with pid 16
+2023-03-22 15:36:11,964 INFO exited: nginx (exit status 1; not expected)
+2023-03-22 15:36:14,982 INFO spawned: 'nginx' with pid 17
+2023-03-22 15:36:15,010 INFO exited: nginx (exit status 1; not expected)
+2023-03-22 15:36:16,015 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2023-03-22 15:36:19,023 WARN received SIGINT indicating exit request
+2023-03-22 15:36:19,025 INFO waiting for php-fpm to die
+2023-03-22 15:36:19,036 INFO stopped: php-fpm (exit status 0)
